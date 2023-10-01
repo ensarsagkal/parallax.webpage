@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.bg{
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.bg h1{
+    width: 30rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #4c4c4c;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    border-top-left-radius:40px ;
+    border-bottom-right-radius: 40px;
+    outline: 10px  inset #A366A5;
+    outline-offset: 1rem;
+}
+.paragraf{
+    text-align: center;
+    
+    padding: 2rem;
+
+}
+.paragraf h2{
+    margin: 1rem;
+}
+.paragraf p{
+    line-height: 2rem;
+    text-align: justify;
+    padding: 2rem;
+}
+.full-stack{
+    background-color: #f1f1f1;
+}
+
+.bg2{
+    background-image: url(./img/bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.bg2 img{
+    width: 30rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
