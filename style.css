@@ -6,14 +6,13 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-body{
-    opacity: 0.7;
-}
+
 .bg{
-    background-image: url(./img/bg.jpg);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(./img/bg.jpg);
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
+   
 }
 .bg h1{
     width: 30rem;
@@ -31,7 +30,9 @@ body{
     border-bottom-right-radius: 40px;
     outline: 10px  inset #A366A5;
     outline-offset: 1rem;
+    
 }
+
 .paragraf{
     text-align: center;
     
@@ -51,10 +52,11 @@ body{
 }
 
 .bg2{
-    background-image: url(./img/bg2.jpg);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(./img/bg2.jpg);
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
+    opacity: 0.7;
 }
 .bg2 img{
     width: 30rem;
@@ -68,11 +70,12 @@ body{
     color: #DDDDDD;
 }
 .bg3{
-    background-image: url(./img/bg3.jpg);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(./img/bg3.jpg);
     
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
+   
 }
 .bg3 p{
     width: 50rem;
@@ -91,4 +94,37 @@ body{
     outline: 7px  inset #A366A5;
     outline-offset: 0.3rem;
 
+}
+.bg4{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(./img/bg4.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+.bg4 p{
+    width: 30rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #4c4c4c;
+    color: white;
+    text-align: center;
+    /* padding: 1.5rem; */
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    outline: 7px  inset #A366A5;
+    outline-offset: 0.3rem;
+}
+
+.why-cw{
+    background-color: #282E34;
+    color: #DDDDDD;
+}
+.last{
+    
 }
