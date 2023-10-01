@@ -78,7 +78,7 @@
    
 }
 .bg3 p{
-    width: 50rem;
+    width: 47rem;
     position: relative;
     top: 50%;
     left: 50%;
@@ -86,7 +86,7 @@
     background-color: #4c4c4c;
     color: white;
     text-align: center;
-    /* padding: 1.5rem; */
+    padding: 0.5rem 0;
     font-size: 3rem;
     letter-spacing: 0.5rem;
     border-top-left-radius:10px ;
@@ -125,6 +125,29 @@
     background-color: #282E34;
     color: #DDDDDD;
 }
-.last{
+
+.bg-last{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(./img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+   
+}
+.bg-last h1{
+    width: 50rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #4c4c4c;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    border-top-left-radius:40px ;
+    border-bottom-right-radius: 40px;
+    outline: 7px  inset #A366A5;
+    outline-offset: 1rem;
     
 }
