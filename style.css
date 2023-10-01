@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+body{
+    opacity: 0.7;
+}
 .bg{
     background-image: url(./img/bg.jpg);
     background-size: cover;
@@ -40,7 +43,7 @@
 }
 .paragraf p{
     line-height: 2rem;
-    text-align: justify;
+    text-align:center;
     padding: 2rem;
 }
 .full-stack{
@@ -59,4 +62,33 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.aws{
+    background-color: #282E34;
+    color: #DDDDDD;
+}
+.bg3{
+    background-image: url(./img/bg3.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.bg3 p{
+    width: 50rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #4c4c4c;
+    color: white;
+    text-align: center;
+    /* padding: 1.5rem; */
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    outline: 7px  inset #A366A5;
+    outline-offset: 0.3rem;
+
 }
